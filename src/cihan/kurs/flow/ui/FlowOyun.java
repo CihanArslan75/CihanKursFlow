@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import java.awt.BorderLayout;
+import javax.swing.JButton;
 
 public class FlowOyun extends JFrame{
 	private Container c=getContentPane();
@@ -16,9 +17,9 @@ public class FlowOyun extends JFrame{
 	    Initialize();
 	}
 
-	private void Initialize() {
+   public void Initialize() {
 		FlowOyunPanel  p = new FlowOyunPanel();
-		FlowOyunButon b=new FlowOyunButon();
+		FlowOyunButon b=new FlowOyunButon(c);
 		
         c.add(p.getbPanel());
 		for (int i = 0; i <b.buttons.length; i++) {
@@ -29,6 +30,6 @@ public class FlowOyun extends JFrame{
 		setBounds(500, 150, 800, 800);
 		getContentPane().setLayout(null);
 		setVisible(true);
-		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		}
 }
