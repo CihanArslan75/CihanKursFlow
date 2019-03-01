@@ -121,7 +121,7 @@ public class FlowOyunButon extends JButton implements ActionListener {
 			
 //			FlowOyun f = new FlowOyun();
 //			f.Initialize();
-		    cc.removeAll();
+		    cc.removeAll(); 
 		    cc.repaint();
 			FlowOyunPanel  p = new FlowOyunPanel();
 			FlowOyunButon b=new FlowOyunButon(cc);

@@ -11,7 +11,7 @@ public class FlowOyunPanel extends JPanel{
 
 	public FlowOyunPanel() {
 		panelInitialize();
-	}
+	} 
 
 	public JPanel getbPanel() {
 		return bPanel;

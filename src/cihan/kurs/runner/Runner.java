@@ -1,7 +1,7 @@
 package cihan.kurs.runner;
 
 import cihan.kurs.flow.ui.FlowOyun;
-
+ 
 public class Runner {
 
 	public static int oyunSeviye=5;
